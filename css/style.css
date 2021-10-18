@@ -47,19 +47,19 @@ nav button {
     color: #fff;
 }
 
-.section {
+section {
     flex: 1;
     margin-top: 80px;
 }
 
 
-.section .logo {
+.google-section .logo {
     display: block;
     margin: 0 auto;
     height: 120px;
 }
 
-.search {
+.main-search {
     width: 580px;
     margin: 0 auto;
     position: relative;
@@ -67,7 +67,7 @@ nav button {
     text-align: center;
 }
 
-.search .search-input {
+.main-search .search-bar {
     display: block;
     border: 1px solid #ddd;
     color: rgba(0, 0, 0, 0.85);
@@ -81,7 +81,7 @@ nav button {
     outline: none;
 }
 
-.search .fa-search{
+.main-search .fa-search{
     width: 22px;
     z-index: 2;
     position: absolute;
@@ -90,7 +90,7 @@ nav button {
     opacity: .4;
 }
 
-.search .fa-microphone-alt{
+.main-search .fa-microphone-alt{
     width: 10px;
     opacity: .4;
     position: absolute;
@@ -115,19 +115,19 @@ nav button {
     border: 1px solid#bdc3c7;
 }
 
-.offer{
+.section-offer{
     text-align: center;
     font-size: 13px;
     color: #111;
 }
 
-.offer a{
+.section-offer a{
     margin-left: 5px;
     color: #1a0dab;
     text-decoration: none;
 
 }
-.offer a:hover{
+.section-offer a:hover{
     text-decoration: underline;
 }
 footer{
@@ -147,15 +147,15 @@ footer a:hover{
     color:#000;
 }
 
-.links{
+.footer-links{
     display: flex;
 }
 
-.link-1{
+.footer-link-left{
     padding-left: 18px;
     flex: 1;
 }
-.link-2{
+.footer-link-right{
     padding-right: 18px;
 }
 form input::placeholder{
